@@ -76,7 +76,7 @@ section { position: relative; }
   right: 4.2%;
   z-index: 6;
   display: flex;
-  width: clamp(48px, 13vw, 58px);
+  width: clamp(50px, 13vw, 58px);
   aspect-ratio: 1;
   flex-direction: column;
   align-items: center;
@@ -110,17 +110,17 @@ section { position: relative; }
 }
 .first_title_small {
   padding: 3px 12px 0;
-  font-size: clamp(20px, 6vw, 27px);
+  font-size: clamp(32px, 8vw, 27px);
 }
 .first_title_large {
   padding: 0 12px 5px;
-  font-size: clamp(35px, 10vw, 45px);
+  font-size: clamp(44px, 15vw, 45px);
   white-space: nowrap;
 }
 .first_title_text {
   margin: 5.5% 0 0 2%;
   color: #fff;
-  font-size: clamp(20px, 6vw, 30px);
+  font-size: clamp(22px, 7vw, 30px);
   font-weight: 900;
   line-height: 1.5;
 }
@@ -143,25 +143,25 @@ section { position: relative; }
 }
 
 /* 導入 */
-.about, .about_02, .about_03 { padding-inline: 9%; text-align: center; }
+.about, .about_02, .about_03 { padding-inline: 6%; text-align: center; }
 .about { padding-top: 54px; padding-bottom: 40px; }
 .about_02 { padding-top: 20px; padding-bottom: 40px; }
-.about_03 { padding: 20px 0 64px; }
+.about_03 { padding: 20px 0 25px; }
 .about h2, .about_02 h2, .about_03 h2 {
   margin-bottom: 18px;
   color: var(--blue);
-  font-size: clamp(21px, 6.1vw, 25px);
+  font-size: clamp(25px, 9vw, 25px);
   font-weight: 900;
   line-height: 1.45;
 }
 .about p, .about_03 > p {
   text-align: left;
-  font-size: clamp(13px, 3.6vw, 17px);
+  font-size: clamp(17px, 3.6vw, 17px);
   line-height: 2;
 }
 .about_02 .lead {
   margin-bottom: 10px;
-  font-size: clamp(15px, 4.2vw, 18px);
+  font-size: clamp(19px, 4.2vw, 19px);
   font-weight: 800;
   line-height: 1.6;
 }
@@ -173,7 +173,7 @@ section { position: relative; }
   margin-top: 34px;
   padding-inline: 7%;
   color: var(--blue);
-  font-size: clamp(0px, 5.4vw, 25px);
+  font-size: clamp(25px, 5.4vw, 25px);
   font-weight: 900;
   line-height: 1.55;
 }
@@ -189,13 +189,13 @@ section { position: relative; }
 .choice > img:first-child { width: 60%; margin: 0 auto -5px 2%; }
 .choice > img:nth-child(2) { width: 100%; margin: -50px auto 10px; }
 .choice > h3 {
-  font-size: clamp(22px, 6.3vw, 35px);
+  font-size: clamp(35px, 6.3vw, 35px);
   font-weight: 900;
   line-height: 1.35;
 }
 .choice > h3 + p {
-  margin: 5px 0 18px;
-  font-size: clamp(11px, 3vw, 17px);
+  margin: 5px 0 30px;
+  font-size: clamp(16px, 3vw, 17px);
   line-height: 1.55;
 }
 .choice-card {
@@ -211,15 +211,15 @@ section { position: relative; }
   margin-top: 35px;
 }
 
-.choice-card > p:first-child { font-size: clamp(12px, 3.2vw, 14px); font-weight: 700; }
+.choice-card > p:first-child { font-size: clamp(18px, 3.2vw, 18px); font-weight: 700; }
 .choice-card h4 {
   margin: 1px 0 13px;
-  font-size: clamp(27px, 7.8vw, 34px);
+  font-size: clamp(30px, 7.8vw, 34px);
   font-weight: 900;
   line-height: 1.25;
 }
 .choice-card > p:nth-of-type(2) {
-  font-size: clamp(11px, 3vw, 13px);
+  font-size: clamp(15px, 3vw, 15px);
   font-weight: 700;
   line-height: 1.65;
 }
@@ -232,9 +232,9 @@ section { position: relative; }
   gap: 10px;
   border-radius: 999px;
   color: #fff;
-  font-size: clamp(11px, 3.1vw, 13px);
+  font-size: clamp(19px, 3.1vw, 13px);
   font-weight: 800;
-  box-shadow: 0 4px 7px rgb(0 0 0 / 20%);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
 }
 .choice-card.green h4 { color: var(--green); }
 .choice-card.green a { background: var(--green); }
@@ -251,13 +251,13 @@ section { position: relative; }
 .solution_02 { padding-top: 53px; }
 .eyebrow {
   color: var(--teal);
-  font-size: clamp(14px, 3.9vw, 20px);
+  font-size: clamp(16px, 5vw, 20px);
   font-weight: 800;
   line-height: 1.5;
 }
 .solution > h3, .solution_02 > h3 {
   margin: 2px 0 17px;
-  font-size: clamp(27px, 7.5vw, 40px);
+  font-size: clamp(35px, 9vw, 40px);
   font-weight: 900;
   line-height: 1.3;
 }
@@ -265,7 +265,7 @@ section { position: relative; }
 .solution_02 > h3 { color: #073fae; }
 .description {
   text-align: center;
-  font-size: clamp(11px, 3.15vw, 16px);
+  font-size: clamp(16px, 5vw, 16px);
   margin: 0 20px;
   line-height: 1.9;
 }
@@ -298,7 +298,7 @@ section { position: relative; }
 .product-head > div { display: flex; align-items: baseline; gap: 2px; }
 .product-head > div p:first-child {
   font-family: "DM Sans", sans-serif;
-  font-size: clamp(20px, 5.8vw, 26px);
+  font-size: clamp(20px, 7vw, 26px);
   font-weight: 900;
   line-height: 1.2;
 }
@@ -322,7 +322,7 @@ section { position: relative; }
 
 .product-sub .volume {
   color: #087c78;
-  font-size: clamp(10px, 2.9vw, 19px);
+  font-size: clamp(15px, 2.9vw, 19px);
   font-weight: 800;
   white-space: nowrap;
 }
@@ -385,7 +385,7 @@ section { position: relative; }
 }
 .detailed01 img, .detailed02 img, .detailed03 img, .detailed04 img { width: 62px; margin: auto; }
 .detailed01 p, .detailed02 p, .detailed03 p, .detailed04 p {
-  font-size: clamp(11px, 3vw, 17px);
+  font-size: clamp(15px, 5vw, 17px);
   font-weight: 800;
   line-height: 1.65;
   white-space: pre-line;
@@ -394,7 +394,7 @@ section { position: relative; }
   grid-column: 2;
   margin-top: 4px;
   color: #888;
-  font-size: clamp(10px, 2.7vw, 14px);
+  font-size: clamp(15px, 4vw, 14px);
   font-weight: 400;
 }
 
@@ -429,7 +429,7 @@ section { position: relative; }
 }
 .solution_02 .product-visual > img:nth-child(2) {
   position: absolute;
-  top: 5%;
+  top: 2%;
   right: 0;
   width: 95%;
 }
