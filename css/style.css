@@ -681,4 +681,12 @@ section { position: relative; }
   .first_title_text { font-size: 16px; }
   .solution_02 .product-visual { min-height: 350px; }
 }
+@media (min-width: 768px) {
+  .solution_02 .product-visual {
+    margin-bottom: 35px;
+  }
 
+  .solution_02 .product-visual > p {
+    transform: translateY(20px);
+  }
+}
