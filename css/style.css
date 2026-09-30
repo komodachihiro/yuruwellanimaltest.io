@@ -299,19 +299,19 @@ section { position: relative; }
 .product-head > div { display: flex; align-items: baseline; gap: 2px; }
 .product-head > div p:first-child {
   font-family: "DM Sans", sans-serif;
-  font-size: clamp(19px, 6vw, 24px);
+  font-size: clamp(15px, 6vw, 24px);
   font-weight: 900;
   line-height: 1.2;
 }
 .product-head > div p:last-child, .product-head > span {
-  font-size: clamp(15px, 2.9vw, 15px);
+  font-size: clamp(14px, 2vw, 14px);
   font-weight: 800;
 }
 
 .solution .product-head,
 .solution_02 .product-head {
   justify-content: flex-start;
-  gap: 10px;
+  gap: 5px;
 }
 
 .product-sub {
