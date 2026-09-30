@@ -150,7 +150,7 @@ section { position: relative; }
 .about h2, .about_02 h2, .about_03 h2 {
   margin-bottom: 18px;
   color: var(--blue);
-  font-size: clamp(25px, 9vw, 25px);
+  font-size: clamp(24px, 9vw, 24px);
   font-weight: 900;
   line-height: 1.45;
 }
