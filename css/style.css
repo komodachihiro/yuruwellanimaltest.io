@@ -457,7 +457,7 @@ section { position: relative; }
 .chicapetca_box,
 .chicapetca_box02 {
   display: grid;
-  height: clamp(300px, 88vw, 300px);
+  height: clamp(300px, 88vw, 320px);
   min-height: 0;
   grid-template-columns: 32% 68%;
   align-items: start;
