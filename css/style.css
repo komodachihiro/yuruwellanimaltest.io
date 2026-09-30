@@ -539,8 +539,8 @@ section { position: relative; }
   border-radius: 999px;
   background: #ff4b0b;
   color: #fff;
-  font-size: clamp(15px, 4.4vw, 19px);
-  font-weight: 900;
+  font-size: clamp(20px, 4.4vw, 21px);
+  font-weight: 700;
   box-shadow: 0 5px 9px rgb(0 0 0 / 16%);
 }
 
