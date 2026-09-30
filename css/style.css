@@ -299,7 +299,7 @@ section { position: relative; }
 .product-head > div { display: flex; align-items: baseline; gap: 2px; }
 .product-head > div p:first-child {
   font-family: "DM Sans", sans-serif;
-  font-size: clamp(15px, 6vw, 24px);
+  font-size: clamp(15px, 6vw, 22px);
   font-weight: 900;
   line-height: 1.2;
 }
@@ -311,7 +311,7 @@ section { position: relative; }
 .solution .product-head,
 .solution_02 .product-head {
   justify-content: flex-start;
-  gap: 5px;
+  gap: 10px;
 }
 
 .product-sub {
