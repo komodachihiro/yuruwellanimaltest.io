@@ -359,7 +359,7 @@ section { position: relative; }
 .price small {
   margin-inline: 4px;
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 800;
 }
 .solution > .price + p, .solution_02 > .price + p {
